@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-// import MobileMenu from "./MobileMenu";
+import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -99,11 +99,10 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-
-      {/* <MobileMenu
+      <MobileMenu
         isOpen={isMobileMenuOpen}
         onClose={() => setIsMobileMenuOpen(false)}
-      /> */}
+      />
     </>
   );
 }
