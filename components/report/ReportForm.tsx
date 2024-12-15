@@ -294,6 +294,23 @@ export function ReportForm({ onComplete }: ReportFormProps) {
         </select>
       </div>
 
+      <div>
+        <label className="block text-sm font-medium text-zinc-400 mb-2">
+          Report Location
+        </label>
+        <input
+          type="text"
+          value={formData.location}
+          onChange={(e) =>
+            setFormData((prev) => ({ ...prev, location: e.target.value }))
+          }
+          className="w-full border-4 bg-zinc-900/50 border border-zinc-800 px-4 py-3.5
+                   text-white transition-colors duration-200
+                   focus:outline-none focus:ring-2 focus:ring-sky-500/40"
+          required
+        />
+      </div>
+
       {/* Title */}
       <div>
         <label className="block text-sm font-medium text-zinc-400 mb-2">
