@@ -39,25 +39,25 @@ export default function Navbar() {
             <div className="hidden md:flex items-center space-x-6">
               <Link
                 href="/submit-report"
-                className="text-sm text-zinc-400 hover:text-white transition-colors"
+                className="text-sm text-zinc-400 hover:text-white transition-colors hover:border-2 border-white/90 margin-all-2 p-1 "
               >
                 Submit Report
               </Link>
               <Link
                 href="/track-report"
-                className="text-sm text-zinc-400 hover:text-white transition-colors"
+                className="text-sm text-zinc-400 hover:text-white transition-colors hover:border-2 border-white/90 margin-all-2 p-1"
               >
                 Track Report
               </Link>
               <Link
                 href="/how-it-works"
-                className="text-sm text-zinc-400 hover:text-white transition-colors"
+                className="text-sm text-zinc-400 hover:text-white transition-colors hover:border-2 border-white/90 margin-all-2 p-1"
               >
                 How It Works
               </Link>
               <Link
                 href="/resources"
-                className="text-sm text-zinc-400 hover:text-white transition-colors"
+                className="text-sm text-zinc-400 hover:text-white transition-colors hover:border-2 border-white/90 margin-all-2 p-1"
               >
                 Resources
               </Link>
@@ -67,11 +67,11 @@ export default function Navbar() {
             <div className="flex items-center space-x-4">
               <Link
                 href="/contact"
-                className="hidden md:block text-sm text-zinc-400 hover:text-white transition-colors"
+                className="hidden md:block text-sm text-zinc-400 hover:text-white transition-colors hover:border-2 border-white/90 margin-all-2 p-1"
               >
                 Contact
               </Link>
-              <button className="group flex h-9 items-center gap-2 rounded-full bg-red-500/10 pl-4 pr-5 text-sm font-medium text-red-500 ring-1 ring-inset ring-red-500/20 transition-all hover:bg-red-500/20">
+              <button className="group flex h-9 items-center gap-2 bg-red-500/10 pl-4 pr-5 text-sm font-medium text-red-500 ring-1 ring-inset ring-red-500/20 transition-all hover:bg-red-500/20">
                 <span className="h-1.5 w-1.5 rounded-full bg-red-500 animate-pulse" />
                     Vault: 911
               </button>
